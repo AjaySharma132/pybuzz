@@ -1,10 +1,10 @@
-# pybuzz: Pushing Notifications Now Becomes Simple!
+# knok-knok: Pushing Notifications Now Becomes Simple!
 
 ## What is it?
 
-**pybuzz** is an easy-to-use python package for sending push notifications across andriod and ios devices. 
+**knok-knok** is an easy-to-use python package for sending push notifications across andriod and ios devices. 
 **Tired of looking around for solutions to send your notifications?**
-No more worries now, **pybuzz** does all the heavy lifting of research and bug-fixes for you. Let's get started. 
+No more worries now, **knok-knok** does all the heavy lifting of research and bug-fixes for you. Let's get started. 
 
 ## Our Features include
 
@@ -16,14 +16,14 @@ No more worries now, **pybuzz** does all the heavy lifting of research and bug-f
 
 ## Getting Started
 The source code is currently hosted on GitHub at:
-https://github.com/ajaysharma132/pybuzz
+https://github.com/ajaysharma132/knok-knok
 
 Binary installers for the latest released version are available at the [Python
 Package Index (PyPI)].
 
 ```sh
 # PyPI
-pip install pybuzz
+pip install knok-knok
 ```
 
 for sending a push notification, all you need to do is - 
@@ -56,7 +56,7 @@ Now, instantiate the FCMClient providing your FCM_API_KEY as -
 
 ```sh
 # FCMClient instance
-from pybuzz import FCMClient
+from knok_knok import FCMClient
 client = FCMClient(FCM_API_KEY)
 ```
 
